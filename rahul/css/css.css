@@ -1,0 +1,142 @@
+body, html{
+    margin: 0%;
+    overflow-x: hidden;
+}
+nav{
+    margin: 0%;
+    display: flex;
+    text-align: right;
+    background-color: rgb(85, 84, 84);
+    padding: 10px;
+    
+    
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-shadow: white 1px 2px 2px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+nav a:hover{
+    /* background-color: blueviolet; */
+    border:  solid 2px whitesmoke;
+    border-radius:8px ;
+
+}
+.events{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+}
+.events h1{
+    background-size: 30px;
+    background-color: cyan;
+    text-align: center;
+    align-content: center;
+    border-bottom: solid 2px black;
+    text-shadow: blue 1px 2px 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.events p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+.charities{
+    width: 98%;
+    display: flex;
+    padding-top: 20px;
+    border: solid 2px black;
+    box-shadow: chartreuse 2px 2px 2px; 
+    margin: 10px;
+}
+
+.charities .hostel{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.charities .hostel img{
+    border: solid 2px black;
+    border-radius:20px ;
+    box-shadow: brown 2px 2px 2px;
+}
+.charities .hostel h3{
+    font-family: monospace;
+    border-bottom: solid 2px cyan ;
+}
+.charities .hostel p{
+    background-color: rgb(95, 94, 94);
+    border-radius: 20px;
+    color: rgb(238, 236, 236);
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.facilities{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.main-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    display: block;
+    background-color: darkgray;
+    padding: 10px;
+    color: white;
+    width: 95%;
+    font-size: 30px;
+    text-align: center;
+}
+.facilities h1{
+    margin: 0%;
+}
+.facilities .facility{
+    display: block;
+}
+.facilities .facility h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+.facilities .facility p{
+    font-size: 30px;
+}
+
+.trustees{
+    width: 97%;
+    margin: 20px;
+    border: solid 2px darkgray ;
+    height: 500px;
+}
+.trustees .main-title{
+    width: 98%;
+}
+
+.trustee-images{
+    padding: 20px;
+}
+.card{
+    width: 160px;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.card h3{
+    font-family: monospace;
+    border-bottom: solid 2px cyan ;
+    margin: 0%;
+}
+.card p{
+    background-color: rgb(95, 94, 94);
+    border-radius: 20px;
+    color: rgb(238, 236, 236);
+    margin: 0%;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
